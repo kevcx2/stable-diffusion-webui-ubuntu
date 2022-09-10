@@ -7,11 +7,11 @@ dependencies:
   - git
   - python=3.8.5
   - pip=20.3
-  - cudatoolkit=11.3
+  - cudatoolkit=11.0.3
+  - pytorch=1.10.2
+  - torchvision=0.11.3
   - numpy=1.19.2
   - pip:
-    - torch
-    - torchvision
     - albumentations==0.4.3
     - opencv-python
     - opencv-python-headless
